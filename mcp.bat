@@ -2,7 +2,7 @@
 
 REM Configuration
 set "MCPTOOLS_CMD=mcptools"
-set "MCP_SERVER_URL=http://127.0.0.1:7860/gradio_api/mcp/sse"
+set "MCP_SERVER_URL=https://castlebbs-3dgen.hf.space/gradio_api/mcp/sse"
 
 REM Check if bio parameter is provided
 if "%~1"=="" (
