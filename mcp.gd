@@ -18,7 +18,8 @@ func execute_mcptools_command():
 		script_path = ProjectSettings.globalize_path("res://mcp.sh")
 	
 	var arguments = PackedStringArray([
-		"Love sports"
+		"Love sports",
+		"4"  # Number of assets to generate
 	])
 	
 	# Create and start thread for non-blocking execution
