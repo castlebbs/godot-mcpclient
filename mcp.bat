@@ -21,4 +21,4 @@ set "PLAYER_BIO=%~1"
 set "JSON_PARAMS={\"player_bio\":\"%PLAYER_BIO%\",\"num_assets\":%NUM_ASSETS%}"
 
 REM Execute the mcptools command
-%MCPTOOLS_CMD% call generate_3d_assets --params "%JSON_PARAMS%" "%MCP_SERVER_URL%"
+%MCPTOOLS_CMD% call 3dgen_generate_3d_assets --params "%JSON_PARAMS%" "%MCP_SERVER_URL%"
